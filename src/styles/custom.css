@@ -3,8 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 /* @import "compass/css3"; */
 
-
-div, p, h1, h2, h3, h4, h5, h6, a, button {
+body, body *:not(i):not(span):not(em) {
     font-family: 'Figtree, sans-serif'!important;
 }
 
