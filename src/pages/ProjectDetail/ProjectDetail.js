@@ -214,7 +214,7 @@ const ProjectDetail = (props) => {
                   {project.retrievedProject.requestType == 1 && `Download subtitles`}
                   {project.retrievedProject.requestType == 2 && `Download Podcast`}
                 </p>
-                {project.retrievedProject.requestType == 0 && <p onClick={()=>handleDownload('ALL',project.originalVideoLink.signedUrl)} className={styles.language_button}>Download all versions</p>}
+                {(project.retrievedProject.requestType == 0 && project.retrievedProject.translatedLanguages.length != 1) && <p onClick={()=>handleDownload('ALL',project.originalVideoLink.signedUrl)} className={styles.language_button}>Download all versions</p>}
               </div>
             </div>
             {project.retrievedProject.requestType != 2 &&
