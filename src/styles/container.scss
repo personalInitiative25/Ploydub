@@ -1,0 +1,62 @@
+@import './variables';
+
+.wrapper {
+  width: 100%;
+  min-width: $widthScreenMobileSmall;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: $defaultIndent;
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+// .content {
+//   padding: 0 100px;
+// }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    // width: 540px;
+    width: 95%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    // width: 720px;
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 92%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 1760px) {
+  .container {
+    width: 1640px;
+  }
+}

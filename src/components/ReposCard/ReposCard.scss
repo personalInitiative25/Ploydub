@@ -1,0 +1,116 @@
+@import "../../styles/variables";
+
+.repo {
+  padding-left: $defaultIndent;
+  position: relative;
+  width: 20%;
+  // min-height: 150px;
+  box-sizing: border-box;
+}
+
+.name {
+  color: #4078c0;
+  font-size: 16px;
+}
+
+.card{
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: cover;
+  min-height: 185px;
+  border-radius: 12px!important;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.desc {
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  color: #767676;
+  font-weight: 100;
+  min-height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panel {
+  display: flex;
+  flex-flow: row;
+}
+
+.property {
+  color: #1a1b1c;
+  font-weight: 100;
+  font-size: 13px;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 2px 10px 2px 10px;
+  background-color: white;
+  // margin-right: 50px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.video {
+  @extend .property;
+  flex: 1;
+  text-align: right;
+  margin-right: 0;
+  color: white;
+  font-size: 18px;
+  background: black;
+  border-radius: 5px;
+  /* float: right; */
+  position: absolute;
+  top: 138px;
+  right: 14px;
+  .fa {
+    margin-right: 3px;
+  }
+}
+
+.size {
+  @extend .property;
+}
+
+.ellipsisIcon {
+  background-color: white;
+  color: darkolivegreen;
+  font-size: 17px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 20px;
+  padding: 0px 5px 2px 5px;
+  border-radius: 5px;
+}
+@media(max-width: $widthScreenDisplayLarge) {
+  .repo {
+    width: 25%;
+  }
+}
+@media(max-width: $widthScreenLaptopSmall) {
+  .repo {
+    width: 33.33%;
+  }
+}
+@media(max-width: $widthScreenTabletDefault) {
+  .repo {
+    width: 50%;
+  }
+}
+@media(max-width: $widthScreenMobileLarge) {
+  .repo {
+    width: 100%;
+  }
+}
+

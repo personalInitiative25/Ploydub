@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorInfo should render correctly 1`] = `
+<ForwardRef(Card)
+  className="authorInfo"
+>
+  <div
+    className="logo"
+    style={
+      Object {
+        "backgroundImage": "url(http://localhost:8888/avatar)",
+      }
+    }
+  />
+  <div
+    className="title"
+  >
+    John
+  </div>
+  <div
+    className="titleVersion"
+  >
+    USA
+  </div>
+  <div
+    className="infoText"
+  >
+    Addition information
+  </div>
+  <div
+    className="button"
+  >
+    <ForwardRef(Button)
+      onClick={[Function]}
+      startIcon={
+        <i
+          className="fa fa-github"
+        />
+      }
+      variant="contained"
+    >
+      Github page
+    </ForwardRef(Button)>
+  </div>
+</ForwardRef(Card)>
+`;

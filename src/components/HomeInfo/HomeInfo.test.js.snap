@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeInfo should render correctly 1`] = `
+<div
+  className="homeInfo"
+>
+  <ForwardRef(Card)>
+    <div
+      className="homeLogo"
+    >
+      <div
+        className="image"
+      >
+        <i
+          className="fa fa-gears"
+        />
+      </div>
+      <h1
+        className="name"
+      >
+        Finder
+      </h1>
+      <div
+        className="text"
+      >
+        Search engine
+      </div>
+      <div
+        className="button"
+      >
+        <ForwardRef(Button)
+          onClick={[Function]}
+          startIcon={
+            <i
+              className="fa fa-github"
+            />
+          }
+          variant="contained"
+        >
+          Download with Github
+        </ForwardRef(Button)>
+      </div>
+    </div>
+  </ForwardRef(Card)>
+</div>
+`;
